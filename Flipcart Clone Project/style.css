@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+    background-color: #f1f3f6;
+    color: #212121;
+    line-height: 1.4;
+
+}
+
+.header {
+    height: 56px;
+    width: 100%;
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.flipkart_logo {
+    width: 72px;
+    height: auto;
+}
+
+.plus-logo {
+    width: 10px;
+    height: 10px;
+}
+
+.logo p {
+    font-family: Roboto;
+    font-size: 11px;
+    color: #f0f0f0;
+    font-style: italic;
+}
+
+.logo span {
+    color: #ffe500;
+}
+
+/***** second box ******/
+
+.box2 input {
+    width: 500px;
+    height: 36px;
+    background-color: #ffffff;
+    padding: 0px 16px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid white;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-left: 12px;
+}
+
+.box2 {
+    display: flex;
+
+}
+
+.box2 span {
+    width: 45px;
+    height: 36px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.box2 i {
+
+    font-size: 20px;
+    color: #2874f0;
+}
+
+/***** box3 *****/
+
+.box3 {
+    width: 140px;
+    height: 31px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.box3 p {
+    font-size: 16px;
+    color: #2874f0;
+    font-weight: 550;
+}
+
+.box4 {
+    margin-left: 50px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.box5 {
+    margin-left: 50px;
+}
+
+.box5 select {
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: #ffffff;
+    animation-name: rotation;
+    animation-duration: 1s;
+}
+
+@keyframes rotation {
+    form {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+/********* box6 ********/
+
+.box6 {
+    margin-left: 50px;
+}
+
+.box6 i {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/*****************************************Second Container******************/
+.container2 {
+    width: 100%;
+    height: 115px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.first-Block {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-container2 {
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+
+.container2 a {
+    font-size: 14px;
+    color: #212121;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.mySlides{
+    display: none;
+    height: 280px;
+    width: 100%;
+    overflow-y: hidden;
+    margin: 8px;
+}
+
+.carousel-container {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    margin: 8px;
+    width: 47px;
+    height: 104px;
+    top: 52%;
+    padding-top: 30px;
+    margin-top: -110px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+    background-color: #fffffffa;
+    text-align: center;
+    align-content: center;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /*******************Third Section Box *********************************/
+
+  .third-section {
+    height: 362px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: #ffffff;
+    
+  }
+  .first-littlebox{
+    height: 362px;
+    width: 250px;
+    background-color:rgb(120,228,197);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.first-littlebox h2{
+    font-size: 30px;
+    font-family: roboto;
+    color: #212121;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 2;
+}
+.view-all{
+    width: 96px;
+    height: 38px;
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    border-radius: 2px;
+    box-shadow: rgba(128, 128, 128, 1);
+}
+.view-all a {
+    color: #ffffff;
+    font-size: small;
+}
+
+
+.third-littlebox{
+    height: 362px;
+    width: 250px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.third-littlebox img{
+    width: 250px;
+    height: 362px;
+    padding: 5px;
+}
+
+.second-largebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.element{
+    width: 232px;
+    height: 362px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-element {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.img-element img {
+    width: 200px;
+    height: auto;
+
+}
+.first-text{
+    font-size: 14px;
+    color: #212121;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.second-text{
+    font-size: 16px;
+    color: #388e3c;
+    margin-top: 8px;
+}
+
+.third-text{
+    font-size: 14px;
+    color: gray;
+    margin-top: 8px;
+}
+
+.last-box{
+    height: 800px;
+    width: 100%;
+    margin-top: 8px;
+    background-color: #ffffff;
+    color: #212121;
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer {
+    height: 270px;
+    width: 100%;
+    background-color: #172337;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 55%;
+    height: 270px;
+    margin-top: 75px;
+    }
+
+.footer1 p {
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 14px;
+}
+
+.footer a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.footer2{
+    width: 45%;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 75px;
+}
+
+.footer h6{
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+    margin-bottom: 14px;
+}
+.footer2 p {
+    font-size: 12px;
+
+}
+
+.vl{
+    border-right: 1px solid grey;
+    height: 150px;
+}
+
+.footerlast {
+    height: 75px;
+    width: 100%;
+    background-color: #172337;
+    color: white;
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+border-top: 1px solid grey;
+}
+
+.parent {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parent a {
+    font-size: 14px;
+}
+
+.parent i {
+    color: #f1da02;
+    margin-right: 10px;
+    font-size: 17px;
+}
+.pament-logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
